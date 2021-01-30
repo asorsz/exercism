@@ -1,6 +1,5 @@
-export const colorCode = (color) => {
-  return COLORS.indexOf(color);
-};
+export const colorCode = color =>
+  COLORS.indexOf(color);
 
 export const COLORS = [
   'black',
