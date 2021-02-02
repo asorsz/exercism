@@ -1,4 +1,4 @@
-export const abilityModifier = num => {
+export const abilityModifier = (num) => {
   if (num < 3) throw new Error('Ability scores must be at least 3');
   if (num > 18) throw new Error('Ability scores can be at most 18');
   return Math.floor((num - 10)/2);

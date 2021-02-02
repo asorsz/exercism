@@ -1,4 +1,4 @@
-export const squareRoot = radicand => {
+export const squareRoot = (radicand) => {
  
   function calcGuess(lastGuess) {
     let guess = lastGuess - (((lastGuess ** 2) - radicand)/(lastGuess * 2));

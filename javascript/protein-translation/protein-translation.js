@@ -10,7 +10,7 @@ export const PROTEINS = [
 
 export const STOPS = ['UAA', 'UAG', 'UGA'];
 
-export const translate = str => {
+export const translate = (str) => {
   const errorHandler = () => {
     throw new Error('Invalid codon')
   };

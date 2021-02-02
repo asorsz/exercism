@@ -1,4 +1,4 @@
-export const encode = str => {
+export const encode = (str) => {
   const arr = str.split('')
   let newArr = [];
   let count = 1;

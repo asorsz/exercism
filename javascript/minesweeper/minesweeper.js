@@ -1,4 +1,4 @@
-export const annotate = input => {
+export const annotate = (input) => {
   const rows = input.length;
   if (rows === 0) return input;
 
